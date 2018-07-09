@@ -1,0 +1,40 @@
+.chat-app {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid black;
+    height: 500px;
+    width:  300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat-window {
+    margin: 5px;
+    overflow-y: auto;
+    height: 91%;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.message.left {
+    justify-content: flex-start;
+}
+
+.message.right   {
+    justify-content: flex-end;
+}
+
+.controller {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 5px;
+}
